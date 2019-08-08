@@ -1,0 +1,9 @@
+C:\Ashok\personal\Pooja\MyExample\MyExampleModel\bin\Debug\netstandard2.0\MyExampleModel.deps.json
+C:\Ashok\personal\Pooja\MyExample\MyExampleModel\bin\Debug\netstandard2.0\MyExampleModel.dll
+C:\Ashok\personal\Pooja\MyExample\MyExampleModel\bin\Debug\netstandard2.0\MyExampleModel.pdb
+C:\Ashok\personal\Pooja\MyExample\MyExampleModel\obj\Debug\netstandard2.0\MyExampleModel.csprojAssemblyReference.cache
+C:\Ashok\personal\Pooja\MyExample\MyExampleModel\obj\Debug\netstandard2.0\MyExampleModel.csproj.CoreCompileInputs.cache
+C:\Ashok\personal\Pooja\MyExample\MyExampleModel\obj\Debug\netstandard2.0\MyExampleModel.AssemblyInfoInputs.cache
+C:\Ashok\personal\Pooja\MyExample\MyExampleModel\obj\Debug\netstandard2.0\MyExampleModel.AssemblyInfo.cs
+C:\Ashok\personal\Pooja\MyExample\MyExampleModel\obj\Debug\netstandard2.0\MyExampleModel.dll
+C:\Ashok\personal\Pooja\MyExample\MyExampleModel\obj\Debug\netstandard2.0\MyExampleModel.pdb
