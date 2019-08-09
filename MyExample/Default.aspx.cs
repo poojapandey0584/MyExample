@@ -14,6 +14,8 @@ namespace MyExample
 {
     public partial class _Default : Page
     {
+        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -33,6 +35,7 @@ namespace MyExample
 
             } catch(Exception ex)
             {
+                log.Error(ex.StackTrace);
             }
         }
 
@@ -62,7 +65,7 @@ namespace MyExample
             }
             catch (Exception ex)
             {
-
+                log.Error(ex.StackTrace);
             }
         }
     }

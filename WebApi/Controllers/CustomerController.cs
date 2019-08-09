@@ -13,6 +13,8 @@ namespace WebApi.Controllers
     public class CustomerController : ApiController
     {
 
+        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
         private CustomerService _customerService;
 
         public CustomerController()

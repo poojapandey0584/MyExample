@@ -14,6 +14,7 @@ namespace MyExample
     public partial class CustomerDetails : Page
     {
 
+        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         /// <summary>
         /// 
         /// </summary>
@@ -21,11 +22,13 @@ namespace MyExample
         /// <param name="e"></param>
         protected void Page_Load(object sender, EventArgs e)
         {
-            try {
+            try
+            {
+                log.Debug("Loading: ");
                 GetCustomers();
             } catch(Exception ex)
             {
-
+                log.Error(ex.StackTrace);
             }
         }
         /// <summary>
@@ -53,7 +56,7 @@ namespace MyExample
 
             } catch(Exception ex)
             {
-
+                log.Error(ex.StackTrace);
             }
         }
     }

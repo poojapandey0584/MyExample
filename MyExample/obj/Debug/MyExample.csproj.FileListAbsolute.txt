@@ -156,3 +156,5 @@ C:\Ashok\personal\MyExample1\MyExample\obj\Debug\MyExample.csproj.CoreCompileInp
 C:\Ashok\personal\MyExample1\MyExample\obj\Debug\MyExample.csproj.CopyComplete
 C:\Ashok\personal\MyExample1\MyExample\obj\Debug\MyExample.dll
 C:\Ashok\personal\MyExample1\MyExample\obj\Debug\MyExample.pdb
+C:\Ashok\personal\MyExample1\MyExample\bin\log4net.dll
+C:\Ashok\personal\MyExample1\MyExample\bin\log4net.xml
