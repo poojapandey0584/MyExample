@@ -16,6 +16,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBScript", "DBScript", "{6DF3FBA2-6F30-4D35-BACE-A60CE4937994}"
 	ProjectSection(SolutionItems) = preProject
 		customer.sql = customer.sql
+		..\..\..\..\Users\20800791\Desktop\InsertQuery.sql = ..\..\..\..\Users\20800791\Desktop\InsertQuery.sql
 	EndProjectSection
 EndProject
 Global
