@@ -109,6 +109,14 @@
       <Project>{1b6248e8-4bc2-4929-8d9e-35fe1ea60d67}</Project>
       <Name>Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MyExample.Repositories\MyExample.Repositories.csproj">
+      <Project>{3bd60e60-7c7c-490c-b834-f59c6c1724b2}</Project>
+      <Name>MyExample.Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyExampleService\MyExampleService.csproj">
+      <Project>{86075b4f-7a38-4fac-a10e-1b27d8252d75}</Project>
+      <Name>MyExampleService</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

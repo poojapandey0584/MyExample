@@ -1,0 +1,9 @@
+C:\Ashok\personal\Pooja\MyExample\MyExample.Repositories\obj\Debug\MyExample.Repositories.csproj.CoreCompileInputs.cache
+C:\Ashok\personal\Pooja\MyExample\MyExample.Repositories\obj\Debug\MyExample.Repositories.csprojAssemblyReference.cache
+C:\Ashok\personal\Pooja\MyExample\MyExample.Repositories\bin\Debug\MyExample.Repositories.dll
+C:\Ashok\personal\Pooja\MyExample\MyExample.Repositories\bin\Debug\MyExample.Repositories.pdb
+C:\Ashok\personal\Pooja\MyExample\MyExample.Repositories\bin\Debug\Model.dll
+C:\Ashok\personal\Pooja\MyExample\MyExample.Repositories\bin\Debug\Model.pdb
+C:\Ashok\personal\Pooja\MyExample\MyExample.Repositories\obj\Debug\MyExample.Repositories.csproj.CopyComplete
+C:\Ashok\personal\Pooja\MyExample\MyExample.Repositories\obj\Debug\MyExample.Repositories.dll
+C:\Ashok\personal\Pooja\MyExample\MyExample.Repositories\obj\Debug\MyExample.Repositories.pdb

@@ -9,6 +9,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{1B6248E8-4BC2-4929-8D9E-35FE1EA60D67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyExample.Repositories", "MyExample.Repositories\MyExample.Repositories.csproj", "{3BD60E60-7C7C-490C-B834-F59C6C1724B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyExampleService", "MyExampleService\MyExampleService.csproj", "{86075B4F-7A38-4FAC-A10E-1B27D8252D75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBScript", "DBScript", "{6DF3FBA2-6F30-4D35-BACE-A60CE4937994}"
+	ProjectSection(SolutionItems) = preProject
+		customer.sql = customer.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +36,14 @@ Global
 		{1B6248E8-4BC2-4929-8D9E-35FE1EA60D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B6248E8-4BC2-4929-8D9E-35FE1EA60D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B6248E8-4BC2-4929-8D9E-35FE1EA60D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BD60E60-7C7C-490C-B834-F59C6C1724B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BD60E60-7C7C-490C-B834-F59C6C1724B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BD60E60-7C7C-490C-B834-F59C6C1724B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BD60E60-7C7C-490C-B834-F59C6C1724B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86075B4F-7A38-4FAC-A10E-1B27D8252D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86075B4F-7A38-4FAC-A10E-1B27D8252D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86075B4F-7A38-4FAC-A10E-1B27D8252D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86075B4F-7A38-4FAC-A10E-1B27D8252D75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

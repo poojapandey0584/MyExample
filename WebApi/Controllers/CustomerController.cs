@@ -1,4 +1,5 @@
 ﻿using Model.Model;
+using MyExampleService;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,47 +13,44 @@ namespace WebApi.Controllers
     public class CustomerController : ApiController
     {
 
+        private CustomerService _customerService;
 
-        Customer[] customers = new Customer[]
+        public CustomerController()
         {
-            new Customer { Id = 1, FName = "Pooja", LName = "Pandey", Address = "Cary" },
-            new Customer { Id = 2, FName = "Pooja2", LName = "Pandey", Address = "Cary" },
-            new Customer { Id = 3, FName = "Pooja3", LName = "Pandey", Address = "RTP" },
-        };
-
-        public IEnumerable<Customer> GetAllCustomers()
-        {
-            return customers;
+            _customerService = new CustomerService();
         }
 
-        public IHttpActionResult GetCustomer(int id)
+        // GET: api/Customer
+        public HttpResponseMessage Get()
         {
-            var cust = customers.FirstOrDefault((p) => p.Id == id);
-            if (cust == null)
-            {
-                return NotFound();
-            }
-            return Ok(cust);
+            var customers = _customerService.Get();
+            if (customers != null)
+                return Request.CreateResponse(HttpStatusCode.OK, customers);
+            else return Request.CreateErrorResponse(HttpStatusCode.NotFound
+                                    , "No customers found");
+        }
+
+        // GET: api/Customer/5
+        public HttpResponseMessage Get(string id)
+        {
+            var customer = _customerService.Get(id);
+            if (customer != null)
+                return Request.CreateResponse(HttpStatusCode.OK, customer);
+            else return Request.CreateErrorResponse(HttpStatusCode.NotFound
+                                    , "Customer with Id " + id + " does not exist");
+        }
+
+        // POST: api/Customer
+        public HttpResponseMessage Post([FromBody]Customer customer)
+        {
+            _customerService.Add(customer);
+
+            var message = Request.CreateResponse(HttpStatusCode.Created);
+            message.Headers.Location = new Uri(Request.RequestUri + customer.Id);
+            return message;
         }
 
 
-        // POST: api/customers
-        public void Post([FromBody]string value)
-        {
-            customers.ToList().Add(new Customer { Id = 1, FName = "Pooja", LName = "Pandey", Address = "Cary" });
-        }
-
-        // PUT: api/customer/5
-        public void Put(int id, [FromBody]string value)
-        {
-            customers.ToList().Add(new Customer { Id = 1, FName = "Pooja", LName = "Pandey", Address = "Cary" });
-        }
-
-        // DELETE: api/customer/5
-        public void Delete(int id)
-        {
-            customers.ToList().Add(new Customer { Id = 1, FName = "Pooja", LName = "Pandey", Address = "Cary" });
-        }
     }
 }
 

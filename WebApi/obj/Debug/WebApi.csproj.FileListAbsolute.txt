@@ -64,3 +64,7 @@ C:\Ashok\personal\Pooja\MyExample\WebApi\obj\Debug\WebApi.dll
 C:\Ashok\personal\Pooja\MyExample\WebApi\obj\Debug\WebApi.pdb
 C:\Ashok\personal\Pooja\MyExample\WebApi\bin\Model.dll
 C:\Ashok\personal\Pooja\MyExample\WebApi\bin\Model.pdb
+C:\Ashok\personal\Pooja\MyExample\WebApi\bin\MyExample.Repositories.dll
+C:\Ashok\personal\Pooja\MyExample\WebApi\bin\MyExample.Repositories.pdb
+C:\Ashok\personal\Pooja\MyExample\WebApi\bin\MyExampleService.dll
+C:\Ashok\personal\Pooja\MyExample\WebApi\bin\MyExampleService.pdb

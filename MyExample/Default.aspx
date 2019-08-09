@@ -34,9 +34,9 @@
                 <td class="modal-sm" style="width: 263px">
                     <asp:TextBox ID="txtAddress" runat="server" Height="22px" Width="210px"></asp:TextBox>
                 </td>
-                <td style="width: 120px">Address2:</td>
+                <td style="width: 120px">Email:</td>
                 <td>
-                    <asp:TextBox ID="txtAddress2" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
                 </td>
             </tr>
              <tr>
@@ -47,7 +47,7 @@
                     <asp:Button ID="btnCancel" runat="server" Text="Cancel" Width="117px" />
                  </td>
                 <td>
-                    <asp:Button ID="btnSave" runat="server" Text="Save" Width="171px" />
+                    <asp:Button ID="btnSave" runat="server" Text="Save" Width="171px" OnClick="btnSave_Click" />
                 </td>
             </tr>
         </table>

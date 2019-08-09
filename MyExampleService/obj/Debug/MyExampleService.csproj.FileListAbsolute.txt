@@ -1,0 +1,11 @@
+C:\Ashok\personal\Pooja\MyExample\MyExampleService\bin\Debug\MyExampleService.dll
+C:\Ashok\personal\Pooja\MyExample\MyExampleService\bin\Debug\MyExampleService.pdb
+C:\Ashok\personal\Pooja\MyExample\MyExampleService\obj\Debug\MyExampleService.csproj.CoreCompileInputs.cache
+C:\Ashok\personal\Pooja\MyExample\MyExampleService\obj\Debug\MyExampleService.dll
+C:\Ashok\personal\Pooja\MyExample\MyExampleService\obj\Debug\MyExampleService.pdb
+C:\Ashok\personal\Pooja\MyExample\MyExampleService\bin\Debug\Model.dll
+C:\Ashok\personal\Pooja\MyExample\MyExampleService\bin\Debug\MyExample.Repositories.dll
+C:\Ashok\personal\Pooja\MyExample\MyExampleService\bin\Debug\Model.pdb
+C:\Ashok\personal\Pooja\MyExample\MyExampleService\bin\Debug\MyExample.Repositories.pdb
+C:\Ashok\personal\Pooja\MyExample\MyExampleService\obj\Debug\MyExampleService.csprojAssemblyReference.cache
+C:\Ashok\personal\Pooja\MyExample\MyExampleService\obj\Debug\MyExampleService.csproj.CopyComplete
